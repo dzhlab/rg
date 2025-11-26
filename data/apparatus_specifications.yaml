@@ -1,0 +1,298 @@
+# Технические характеристики предметов для художественной гимнастики
+# Rhythmic Gymnastics Apparatus Technical Specifications
+# FIG Code of Points 2025-2028
+
+apparatus:
+  hoop:
+    name_en: Hoop
+    name_ru: Обруч
+    required_for_seniors: true
+    required_for_juniors: true
+
+    specifications:
+      seniors:
+        diameter_cm:
+          min: 80
+          max: 90
+        weight_g: 300
+        material: "Прочный пластик / Durable plastic"
+
+      juniors:
+        diameter_cm:
+          min: 70
+          max: 90
+        weight_g: 260
+        material: "Прочный пластик / Durable plastic"
+
+      beginners:
+        diameter_cm:
+          range: "60-70"
+        material: "Пластик / Plastic"
+
+    requirements:
+      - "FIG approved logo обязателен"
+      - "Логотип производителя"
+      - "Цвет должен отличаться от костюма и ковра"
+
+    mandatory_elements:
+      - "Вращения обруча на руке, теле"
+      - "Броски и ловли"
+      - "Прокаты"
+      - "Проходы через обруч"
+      - "Манипуляции в различных плоскостях"
+
+    prohibited:
+      - "Использование дефектного обруча"
+      - "Изменение диаметра во время упражнения"
+
+    typical_prices_rub:
+      beginner: "1000-2500"
+      intermediate: "1500-3500"
+      advanced: "2000-5000"
+      professional: "3000-8000"
+
+  ball:
+    name_en: Ball
+    name_ru: Мяч
+    required_for_seniors: true
+    required_for_juniors: true
+
+    specifications:
+      seniors:
+        diameter_cm:
+          min: 18
+          max: 20
+        weight_g:
+          min: 400
+        material: "Резина или синтетический материал / Rubber or synthetic"
+
+      juniors:
+        diameter_cm: 17-18.5
+        material: "Резина или синтетический материал / Rubber or synthetic"
+
+      age_recommendations:
+        "3-7_years":
+          diameter_cm: "15-16"
+        "8-10_years":
+          diameter_cm: 17
+        "10+_years":
+          diameter_cm: 18.5
+          weight_g: 400
+
+    requirements:
+      - "FIG approved logo обязателен"
+      - "Логотип производителя"
+      - "Цвет должен отличаться от костюма и ковра"
+
+    mandatory_elements:
+      - "Отбивы"
+      - "Перекаты по телу и по полу"
+      - "Броски и ловли"
+      - "Удержания в различных позициях"
+      - "Обволакивания"
+
+    typical_prices_rub:
+      beginner: "800-2000"
+      intermediate: "1500-4000"
+      advanced: "2000-6000"
+
+  clubs:
+    name_en: Clubs
+    name_ru: Булавы
+    required_for_seniors: true
+    required_for_juniors: true
+    quantity: 2
+
+    specifications:
+      seniors:
+        length_cm:
+          min: 40
+          max: 50
+        weight_g:
+          min: 150
+          typical: "153-155"
+        material: "Пластик или каучук / Plastic or rubber"
+
+      advanced_level:
+        length_cm: "40-50"
+        note: "Для спортсменок уровня КМС и МС"
+
+    requirements:
+      - "FIG approved logo обязателен"
+      - "Логотип производителя на каждой булаве"
+      - "Цвет должен отличаться от костюма и ковра"
+      - "Обе булавы должны быть идентичными"
+
+    mandatory_elements:
+      - "Мельницы и вращения"
+      - "Броски и ловли (одной или двух булав)"
+      - "Перекаты"
+      - "Постукивания (тапировки)"
+      - "Асимметричная работа"
+
+    typical_prices_rub:
+      beginner_pair: "2000-5000"
+      intermediate_pair: "3000-8000"
+      advanced_pair: "5000-12000"
+
+  ribbon:
+    name_en: Ribbon
+    name_ru: Лента
+    required_for_seniors: true
+    required_for_juniors: true
+
+    specifications:
+      seniors:
+        length_m: 6
+        hem_m: 1
+        width_cm: "4-6"
+        weight_g:
+          min: 35
+        material: "Атлас или аналогичный / Satin or similar"
+        stick:
+          length_cm: "50-60"
+          diameter_cm:
+            max: 1
+
+      juniors:
+        length_m: 5
+        hem_m: 1
+        width_cm: "4-6"
+        weight_g:
+          min: 30
+        material: "Атлас или аналогичный / Satin or similar"
+        stick:
+          length_cm: "50-60"
+          diameter_cm:
+            max: 1
+
+    requirements:
+      - "FIG approved logo обязателен"
+      - "Логотип производителя"
+      - "Лента должна постоянно находиться в движении"
+      - "Цвет должен отличаться от костюма и ковра"
+
+    mandatory_elements:
+      - "Змейки"
+      - "Спирали"
+      - "Броски и ловли"
+      - "Восьмерки"
+      - "Круги и махи"
+      - "Рисунки в воздухе"
+
+    typical_prices_rub:
+      beginner: "1500-3000"
+      intermediate: "2000-4000"
+      advanced: "3000-6000"
+
+  rope:
+    name_en: Rope
+    name_ru: Скакалка
+    required_for_seniors: false
+    required_for_juniors: true
+    status: "Исключена из программы сеньоров с 2011 года"
+    note: "Продолжает использоваться в юниорских программах"
+
+    specifications:
+      general:
+        length: "Пропорциональна росту гимнастки"
+        material: "Пенька или синтетический материал / Hemp or synthetic"
+        handles: "Без ручек (допустимы узлы на концах) / No handles (knots allowed)"
+
+    requirements:
+      - "Длина соответствует росту"
+      - "Без ручек или минимальные ручки"
+
+    history:
+      removed_from_seniors: 2011
+      last_usage_seniors: "2017 (смешанные групповые упражнения)"
+      current_usage: "Только юниоры"
+
+    typical_prices_rub:
+      beginner: "400-800"
+      intermediate: "500-1200"
+
+# Общие требования ко всем предметам
+general_requirements:
+  mandatory_markings:
+    - "Логотип производителя"
+    - "FIG approved logo в установленном месте"
+
+  color_requirements:
+    - "Цвет предмета должен отличаться от цвета костюма"
+    - "Цвет предмета должен отличаться от цвета ковра"
+    - "Допустимы разные цвета для разных предметов"
+
+  quality_standards:
+    - "Соответствие официальным требованиям FIG"
+    - "Отсутствие дефектов"
+    - "Безопасность использования"
+
+  approved_manufacturers:
+    premium:
+      - "Sasaki (Japan)"
+      - "Chacott (Japan)"
+      - "Pastorelli (Italy)"
+    mid_range:
+      - "Togu (Germany)"
+      - "Российские производители"
+    budget:
+      - "Различные производители"
+
+# Размеры ковра
+carpet:
+  size_m: 13x13
+  border_color: "Обычно белый или контрастный"
+  surface: "Специальное покрытие для художественной гимнастики"
+
+# Музыкальное сопровождение
+music:
+  format:
+    - "CD"
+    - "Электронный носитель (флешка)"
+  requirements:
+    - "Любой стиль музыки разрешен"
+    - "Пение с текстом разрешено (с 2013 года)"
+    - "Музыка должна быть целостной композицией"
+  duration:
+    individual:
+      min_seconds: 75
+      max_seconds: 90
+      format: "1:15 - 1:30"
+    group:
+      min_seconds: 135
+      max_seconds: 150
+      format: "2:15 - 2:30"
+
+# Дополнительные аксессуары
+accessories:
+  cases:
+    description: "Чехлы для предметов"
+    price_range_rub: "500-1500 за предмет"
+
+  sports_bag:
+    description: "Спортивная сумка для переноски"
+    price_range_rub: "2000-5000"
+
+  magnesia:
+    description: "Магнезия для булав (улучшает хват)"
+    price_range_rub: "200-500"
+
+  stretch_mat:
+    description: "Коврик для растяжки"
+    price_range_rub: "1000-2000"
+
+  hair_accessories:
+    description: "Резинки, заколки для волос"
+    price_range_rub: "500-1000"
+
+# Метаданные
+metadata:
+  version: "1.0"
+  code_of_points: "FIG 2025-2028"
+  last_updated: "2024-11-26"
+  source: "FIG Code of Points 2025-2028"
+  notes:
+    - "Все размеры и веса указаны согласно официальным требованиям FIG"
+    - "Цены ориентировочные и могут варьироваться"
+    - "Скакалка исключена из программы индивидуальных выступлений сеньоров"
